@@ -24,7 +24,18 @@
 
             Console.WriteLine(someoneElsesCar.PrintSymbol());
 
+            List<Car> cars = new List<Car>();
 
+            cars.Add(myCar);
+            cars.Add(yourCar);
+
+            cars[0].brand;
+            cars[1].name;
+
+
+            cars.Add(someoneElsesCar);
+
+            cars.Add(new Car("Chevy", "Silverado"))
 
 
             Circle circle1 = new Circle();
